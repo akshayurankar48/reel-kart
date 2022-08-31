@@ -4,11 +4,12 @@ import {  useNavigate} from 'react-router-dom';
 const SidebarOption = ({ sidebarItem }) => {
   const navigate = useNavigate();
 
-  const [active, setActive] = useState()
+  const [active, setActive] = useState(false);
+
+  const handleActive = () => setActive(!active);
 
   function handleClick(path) {
     navigate(path);
-    setActive(true)
   }
 
   return (

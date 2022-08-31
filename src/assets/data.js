@@ -1,4 +1,3 @@
-import React from 'react'
 import terrain from "../assets/terrain.svg";
 import stories from "../assets/stories.svg";
 import options from "../assets/options.svg";
@@ -34,41 +33,8 @@ import account from "../assets/account.svg";
 import pen from "../assets/pen.svg";
 import creditCard from "../assets/credit-card.svg";
 import ereader from "../assets/ereader.svg";
-import * as FaIcons from "react-icons/fa"
-import * as AiIcons from "react-icons/ai"
-import * as IoIcons from "react-icons/io"
 
-const showUploadReels = [
-  {
-    title: 'Home',
-    path: '/',
-    icon: <AiIcons.AiFillHome/>,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Reports',
-    path: '/myproducts',
-    icon: <IoIcons.IoIosPaper/>,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Products',
-    path: '/reelstore',
-    icon: <FaIcons.FaCartPlus/>,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Team',
-    path: '/connections',
-    icon: <IoIcons.IoMdPeople/>,
-    cName: 'nav-text'
-  }, {
-    title: 'Messages',
-    path: '/',
-    icon: <FaIcons.FaEnvelopeOpenText/>,
-    cName: 'nav-text'
-  }
-]
+
 
 const sidebar = [
   {
@@ -101,7 +67,7 @@ const sidebar = [
         active: false,
         name: "My Reels",
         newTag: "New",
-        path: "/"
+        // path: "/"
       },
       {
         icon: bag,
@@ -485,4 +451,4 @@ const cards = [
   },
 ];
 
-export { sidebar, cards, maps, socials, analytics, showUploadReels };
+export { sidebar, cards, maps, socials, analytics  };
