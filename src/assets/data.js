@@ -178,185 +178,32 @@ const maps = [
         src: grid1,
         alt: 'gird1'
       },
-    ]
-  },
-  {
-    id: 2,
-    icon: down,
-    image: grid2,
-    highlighted: true,
-    active: false,
-    productName: 'Product Name',
-    images: [
+    ],
+    reels: [
       {
-        is: 1,
+        id: 1,
         src: grid2,
         alt: 'gird2'
       },
-      // {
-      //   is: 2,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 3,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 4,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-    ]
-  },
-  {
-    id: 3,
-    icon: down,
-    image: grid3,
-    highlighted: false,
-    active: true,
-    productName: 'Product Name',
-    images: [
       {
-        is: 1,
+        id: 2,
+        src: grid3,
+        alt: 'gird3'
+      },
+      {
+        id: 3,
+        src: grid3,
+        alt: 'gird3'
+      },
+      {
+        id: 4,
         src: grid3,
         alt: 'gird3'
       },
       // {
-      //   is: 2,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 3,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 4,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-    ]
-  },
-  {
-    id: 4,
-    icon: fab,
-    image: grid4,
-    highlighted: false,
-    active: true,
-    productName: 'Product Name',
-    images: [
-      {
-        is: 1,
-        src: grid2,
-        alt: 'gird2'
-      },
-      // {
-      //   is: 2,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 3,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 4,
-      //   src: grid4,
-      //   alt: 'gird4'
-      // },
-    ]
-  },
-  {
-    id: 5,
-    icon: fab,
-    image: grid5,
-    highlighted: false,
-    active: true,
-    productName: 'Product Name',
-    images: [
-      {
-        is: 1,
-        src: grid5,
-        alt: 'gird5'
-      },
-      // {
-      //   is: 2,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 3,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 4,
-      //   src: grid4,
-      //   alt: 'gird4'
-      // },
-    ]
-  },
-  {
-    id: 6,
-    icon: fab,
-    image: grid6,
-    highlighted: false,
-    active: true,
-    productName: 'Product Name',
-    images: [
-      {
-        is: 1,
-        src: grid6,
-        alt: 'gird6'
-      },
-      // {
-      //   is: 2,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 3,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 4,
-      //   src: grid4,
-      //   alt: 'gird4'
-      // },
-    ]
-  },
-  {
-    id: 7,
-    icon: fab,
-    image: grid7,
-    highlighted: false,
-    active: true,
-    productName: 'Product Name',
-    images: [
-      {
-        is: 1,
-        src: grid7,
-        alt: 'gird7'
-      },
-      // {
-      //   is: 2,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 3,
-      //   src: grid1,
-      //   alt: 'gird1'
-      // },
-      // {
-      //   is: 4,
-      //   src: grid4,
-      //   alt: 'gird4'
+      //   id: 5,
+      //   src: grid3,
+      //   alt: 'gird3'
       // },
     ]
   },

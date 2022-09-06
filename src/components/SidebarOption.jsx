@@ -19,7 +19,7 @@ const SidebarOption = ({ sidebarItem }) => {
       </h4>
       {sidebarItem.optionItems.map((option) => (
         <div
-        className={`flex h-12 gap-x-6 items-center justify-start pl-5 ${
+          className={`flex h-12 gap-x-6 items-center justify-start pl-5 ${
             active ? "bg-gray-200 rounded-r-xl" : "bg-white"
           } hover:bg-gray-100 hover:cursor-pointer`}
           key={option.name}
@@ -30,7 +30,9 @@ const SidebarOption = ({ sidebarItem }) => {
           </span>
 
           {option.newTag && (
-            <span className="bg-green-400 px-2 text-gray-100 text-sm rounded-2xl">
+            <span
+              className=" px-2 text-gray-100 text-sm rounded-2xl"
+              style={{ backgroundColor: "#2AB930" }}>
               {option.newTag}
             </span>
           )}
